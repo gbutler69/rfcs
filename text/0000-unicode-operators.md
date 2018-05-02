@@ -15,6 +15,8 @@ Why are we doing this?
 
 There have been a number of discussions, Pre-RFC's, and RFC's proposing additional operators (primarily mathematical, set theoretic, type-theory, or functional programming related) constructed from various, somewhat arbitrary, combinations of various ASCII punctuation/non-alpha-numeric characters (``!@#$%`^&*()_-+={[}]|\\:;"'<,>.?/~``). This seems to indicate a clear desire by a not insignificant portion of the Rust community to extend the available operators that the Rust compiler supports through Trait Implementations. The problem with most of the proposals is that the proposed operators, as combinations of ASCII punctuation, tend to lead to less readable code and so the proposals are more often than not rejected by the community due to the fact that the apparent cost to the readability of Rust is far greater than any benefit derived from adding the operator to the language.
 
+**PLEASE IGNORE THIS GOBBLETY-GOOK FOR NOW....I JUST SLAMMED SOMETHING IN HERE IN THE MIDDLE OF THE NIGHT TO GET SOMETHING STARTED. I THINK YOU GET THE GYST OF WHERE I'M GOING WITH THIS THOUGH FOR NOW.**
+
 This RFC makes the claim that if Rust supported Unicode Mathematical Symbols (and other similar Unicode Code Blocks) as operators (backed by Traits and Trait Implementations) would, provided there is sufficient ecosystem support and that the vast majority of editors and IDE's used by the Rust community have sufficient support for the entry and display of Unicode Mathematical (and similar) symbols, allow for extremely readable, and not overly difficult to write, code for mathematically, set theoretic, type-theory, and functional programming related operators.
 
 What use cases does it support? 
